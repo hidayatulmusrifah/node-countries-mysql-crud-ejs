@@ -299,3 +299,5 @@ app.delete('/delete/(:id)', function (req, res, next) {
 		})
 	})
 })
+
+module.exports = app
