@@ -1,16 +1,16 @@
-body 
-{
-margin: 20px; 
-padding: 20px; 
-font-size: 90%; 
-font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+body {
+  margin: 20px;
+  padding: 20px;
+  font-size: 90%;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 }
+
 /*  general design for link */
 a {
   color: red;
   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
   text-decoration: none;
-/*  text-transform: lowercase;*/
+  /*  text-transform: lowercase;*/
 }
 
 a:hover {
@@ -24,12 +24,13 @@ a:active {
 a:visited {
   color: purple;
 }
+
 /* nav in header*/
 a.nav {
   color: red;
   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
   text-decoration: none;
-/*  text-transform: lowercase;*/
+  /*  text-transform: lowercase;*/
 }
 
 a.nav :hover {
@@ -46,24 +47,29 @@ a.nav :visited {
 }
 
 #countries {
-    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
 }
 
-#countries td, #countries th {
-    border: 1px solid #ddd;
-    padding: 8px;
+#countries td,
+#countries th {
+  border: 1px solid #ddd;
+  padding: 8px;
 }
 
-#countries tr:nth-child(even){background-color: #f2f2f2;}
+#countries tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
 
-#countries tr:hover {background-color: #ddd;}
+#countries tr:hover {
+  background-color: #ddd;
+}
 
 #countries th {
-    padding-top: 12px;
-    padding-bottom: 12px;
-    text-align: left;
-    background-color: #7d7d7d;
-    color: white;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #7d7d7d;
+  color: whitesmoke;
 }

@@ -1,4 +1,3 @@
-
 DROP TABLE IF EXISTS `node_countries`;
 
 CREATE TABLE `node_countries` (
@@ -23,10 +22,4 @@ VALUES
   (NULL,'Tanzania','.tz','TZ','Dodoma',255),
   (NULL,'Seychelles','.sc','SC','Victoria',248),
   (NULL,'Norway','.no','NO','Oslo',47),
-  (NULL,'Nepal','.np','NP','Kathmandu',977);
-
-
-
-
-
-
+  (NULL,'Nepal','.np','NP','Kathmandu',976);
