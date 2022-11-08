@@ -1,5 +1,5 @@
 {
-  "": "countries-light-mysql",
+  "name": "countries-light-mysql",
   "version": "1.0.0",
   "description": "Yallah Yallah, Welcome to Country Light App using MySQL. A prototype to play with Countries",
   "main": "index.js",
